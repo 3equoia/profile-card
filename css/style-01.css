@@ -1,0 +1,77 @@
+body{
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+.container{
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px 0;
+    box-shadow: 0 0 20px rgb(71, 71, 71);
+}
+
+.profile{
+    width: 150px;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+.title{
+    color: rgb(86, 84, 84);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: solid lightgrey;
+    width: 250px;
+    margin: auto;
+    margin-top: 25px;
+    padding-bottom: 5px;
+}
+
+.desc{
+    color: rgb(86, 84, 84);
+    text-align: center;
+
+}
+
+.socials{
+    height: 60px;
+    background-color: rgb(143, 143, 143);
+    text-align: center;
+}
+
+.socials img{
+    width: 45px;
+    margin: 10px;
+    display: absolute;
+}
+.socials img:hover{
+
+    /* transform: rotate(20deg); */
+    /* transform: scale(100px); */
+    transform: rotate(20deg);
+    transition: 10.75;
+
+}
+
+
+span.instagram{
+    display: none;
+}
+
+span.instagram:hover{
+    display: inline;
+}
+
+abbr{
+    text-decoration: none;
+}
